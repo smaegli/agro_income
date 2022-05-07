@@ -14,3 +14,21 @@ main {
 .navbar {
     background-color: black;
 }
+
+button {
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+
+.visualisation {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.selectfield {
+    width: 20%;
+    height: 25px;
+    margin-right: 5px;
+}
