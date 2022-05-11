@@ -11,9 +11,9 @@
       <link rel="stylesheet" href="style.css">
       <!-- D3.js -->
       <script src="https://d3js.org/d3.v4.js"></script>
-      <script src="vis.js" defer></script>
+      <script src="vis_v2.js" defer></script>
 
-      <title>Open Data Visualisation</title>
+      <title>Open Data Visualisierung</title>
     </head>
 
     <body>
@@ -31,16 +31,16 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#introduction">Introduction</a>
+                  <a class="nav-link" href="#introduction">Einführung</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#visualisation">Visualisation</a>
+                  <a class="nav-link" href="#visualisation">Visualisierung</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#methods">Methods</a>
+                  <a class="nav-link" href="#methods">Methoden</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#sources">Sources</a>
+                  <a class="nav-link" href="#sources">Quellen</a>
                 </li>
               </ul>
             </div>
@@ -53,23 +53,30 @@
 
           <div class="text-white text-center">
             <div class="container-fluid py-5">
-              <h1 class="display-4 font-weight-normal">Open Data Visualisation</h1>
-              <p class="lead font-weight-normal">Agricultural accounting data</p>
+              <h1 class="display-4 font-weight-normal">Open Data Visualisierung</h1>
+              <p class="lead font-weight-normal">von landwirtschaftlichen Buchhaltungsdaten</p>
             </div>
           </div>
       
           <div id="introduction" class="shadow p-5 mb-4 bg-light border rounded-3">
             <div class="container-fluid py-5">
-              <h1 class="display-5 fw-bold">Introduction</h1>
+              <h1 class="display-5 fw-bold">Einführung</h1>
               <p class="col-md-8 fs-4">This is an introduction</p>
             </div>
           </div>
 
           <div id="visualisation" class="shadow p-5 mb-4 bg-light border rounded-3">
             <div class="container-fluid py-5">
-              <h1 class="display-5 fw-bold">Visualisation</h1>
+              <h1 class="display-5 fw-bold">Meine Einführung</h1>
               <div class="slidecontainer m-4">
-                Year <input type="range" min="2015" max="2020" value="2015" class="slider ml-4" id="myRange">
+                Jahr <input type="range" min="2015" max="2020" value="2015" class="slider ml-4" id="myRange">
+              </div>
+              <div class="m-4">
+                Ansicht nach:
+                <input type="radio" id="dimension" name="dimension" value="Landwirtschaftsregion" class="ml-2">
+                <label for="html" class="mr-2">Landwirtschaftsregion</label>
+                <input type="radio" id="dimension" name="dimension" value="Betriebstyp">
+                <label for="css">Betriebstyp</label><br>
               </div>
               <div id="my_vis" width="100%" height="600px"></div>
             </div>
@@ -81,15 +88,16 @@
 
           <div id="methods" class="shadow p-5 mb-4 bg-light border rounded-3">
             <div class="container-fluid py-5">
-              <h1 class="display-5 fw-bold">Methods</h1>
-              <p class="col-md-8 fs-4">These are methods</p>
+              <h1 class="display-5 fw-bold">Methoden</h1>
+              <p class="col-md-8 fs-4">Meine Methoden</p>
             </div>
           </div>
 
           <div id="sources" class="shadow p-5 mb-4 bg-light border rounded-3">
             <div class="container-fluid py-5">
-              <h1 class="display-5 fw-bold">Sources</h1>
-              <p class="col-md-8 fs-4">These are sources</p>
+              <h1 class="display-5 fw-bold">Quellen</h1>
+              <p class="col-md-8 fs-4">Treemap Design: https://d3-graph-gallery.com/graph/treemap_custom.html</p>
+              <p class="col-md-8 fs-4">Treemap Tooltip: http://bl.ocks.org/ndobie/90ae9f1a5c7f88ad4929</p>
             </div>
           </div>
       

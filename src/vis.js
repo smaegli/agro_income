@@ -15,14 +15,14 @@ var svg = d3.select("#my_vis")
         "translate(" + margin.left + "," + margin.top + ")");
 
 // Read data
-d3.csv('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/data_hierarchy_1level.csv', function(data) {
+d3.csv("../data/LwData_Vis.csv", function(data){
   
  // stratify the data: reformatting for d3.js
  var root = d3.stratify()
- .id(function(d) { return d.name; })   // Name of the entity (column name is name in csv)
+ .id(function(d) { return d.figure; })   // Name of the entity (column name is name in csv)
  .parentId(function(d) { return d.parent; })   // Name of the parent (column name is parent in csv)
  (data);
-root.sum(function(d) { return +d.value })   // Compute the numeric value for each entity
+root.sum(function(d) { return +d.avg })   // Compute the numeric value for each entity
 
 // Then d3.treemap computes the position of each element of the hierarchy
 // The coordinates are added to the root object above
