@@ -1,7 +1,7 @@
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 10, bottom: 10, left: 10},
   width = 900 - margin.left - margin.right,
-  height = 900 - margin.top - margin.bottom;
+  height = 450 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select("#my_vis")
@@ -17,6 +17,18 @@ d3.json("../data/test.json", function(data) {
 
   // Give the data to this cluster layout:
   var root = d3.hierarchy(data).sum(function(d){ return d.value}) // Here the size of each leave is given in the 'value' field in input data
+
+
+var datacsv = {
+  name: "root",
+  children: []
+}
+
+var parent = d3.group(data, d => d.parent)
+console.log(parent)
+
+
+
 
   // Then d3.treemap computes the position of each element of the hierarchy
   d3.treemap()

@@ -3,3 +3,9 @@
 - Datenfilter: Jahr, Anzeige nach Betriebstyp / LW-Region
 - Texte verfassen (Beschreibung, Methoden, Auswertung usw.)
 - (Responsive Visualisierung)
+
+
+Rückmeldung: 
+
+- Startansicht: es soll mehr sichtbar sein, evt. Treemap klein anzegien, Option mit Vergrösserung
+- Datensatz in JSON konvertieren / oder CSV Parser verwenden
