@@ -1,6 +1,5 @@
-- Tooltip
-- Datenumwandlung JSON/CSV?
-- Datenfilter: Jahr, Anzeige nach Betriebstyp / LW-Region
+- Zahlenformat anpassen (Values werden aktuell nicht angezeigt, weil float und nicht integer)
+- Datenfilter: Jahr
 - Texte verfassen (Beschreibung, Methoden, Auswertung usw.)
 - (Responsive Visualisierung)
 

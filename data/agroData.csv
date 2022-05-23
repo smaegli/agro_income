@@ -1,0 +1,15 @@
+﻿useType,agroType,key,value,conf,figure,year
+Wald,,,4.5749,1.5752,ha_Wald,2015
+Übrige Flächen ausserhalb der LN,,,0.6476,0.0872,ha_uebrige_Flaechen_ausserh_LN,2015
+Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Brotgetreide,1.8822,0.1223,ha_Brotgetreide,2015
+Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Ölsaaten,0.6004,0.0635,ha_Oelsaaten,2015
+Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Zuckerrüben,0.4702,0.0525,ha_Zuckerrueben,2015
+Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Kartoffeln,0.3167,0.0455,ha_Kartoffeln,2015
+Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Futtergetreide,1.0206,0.0761,ha_Futtergetreide,2015
+Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Körnermais,0.2744,0.0418,ha_Koernermais,2015
+Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Silo- und Grünmais,1.1086,0.0748,ha_Silomais,2015
+Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Übrige offene Ackerfläche,0.6414,0.0659,ha_uebrige_offene_Ackerflaeche,2015
+Landwirtschaftliche Nutzfläche (LN),Grünland,Kunstwiesen,3.1933,0.1741,ha_Kunstwiesen,2015
+Landwirtschaftliche Nutzfläche (LN),Grünland,"Naturwiesen, Dauerweiden, übriges Grünland",14.4945,0.378,ha_Dauergruenland_etc,2015
+Landwirtschaftliche Nutzfläche (LN),Dauerkulturen,,0.5047,0.0646,ha_Dauerkulturen,2015
+Landwirtschaftliche Nutzfläche (LN),Übrige Flächen innerhalb LN,,0.4044,0.0475,ha_uebrige_Flaechen_innerh_LN,2015

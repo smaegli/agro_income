@@ -8,6 +8,9 @@ function setyear() {
     }
 }
 
+
+
+
 // function to set dimension (firstlayerkey) to "region"
 function setregion() {
     firstlayerkey = "region";
@@ -23,6 +26,8 @@ function setbetriebstyp() {
 var firstlayerkey = "region";
 var secondlayerkey = "parent";
 var thirdlayerkey = "figure";
+
+//correct at this position?
 var yearkey = "2015";
 
 loaddata();
@@ -35,13 +40,11 @@ function loaddata() {
             children: []
         }
 
-
         var parent = d3.group(data, d => d[firstlayerkey]);
         Array.from(parent.keys()).forEach(function (group) {
             if (group === "") {
                 return
             }
-
             var firstchild = {
                 name: group,
                 children: []
@@ -79,8 +82,3 @@ function loaddata() {
         console.log(datacsv)
     })
 }
-
-
-//init treemap
-
-
