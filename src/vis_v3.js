@@ -1,7 +1,11 @@
 // function to filter by year
 function setyear() {
-    yearkey = "2015";
-    loaddata()
+    if (document.getElementById("year2015").checked) {
+        yearkey = "2015";
+    }
+    if (document.getElementById("year2016").checked) {
+        yearkey = "2016";
+    }
 }
 
 // function to set dimension (firstlayerkey) to "region"
@@ -19,6 +23,7 @@ function setbetriebstyp() {
 var firstlayerkey = "region";
 var secondlayerkey = "parent";
 var thirdlayerkey = "figure";
+var yearkey = "2015";
 
 loaddata();
 
@@ -30,11 +35,13 @@ function loaddata() {
             children: []
         }
 
+
         var parent = d3.group(data, d => d[firstlayerkey]);
         Array.from(parent.keys()).forEach(function (group) {
             if (group === "") {
                 return
             }
+
             var firstchild = {
                 name: group,
                 children: []
@@ -72,3 +79,8 @@ function loaddata() {
         console.log(datacsv)
     })
 }
+
+
+//init treemap
+
+
