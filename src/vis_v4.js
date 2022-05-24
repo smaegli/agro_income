@@ -1,3 +1,15 @@
+// function to filter by year
+function setyear() {
+  if (document.getElementById("year2015").checked) {
+      yearkey = "2015";
+  }
+  if (document.getElementById("year2016").checked) {
+      yearkey = "2016";
+  }
+}
+
+
+// treemap
 window.addEventListener('message', function(e) {
     var opts = e.data.opts,
         data = e.data.data;
@@ -8,7 +20,7 @@ window.addEventListener('message', function(e) {
 var defaults = {
     margin: {top: 24, right: 0, bottom: 0, left: 0},
     rootname: "TOP",
-    format: ",d",
+    format: ".2f",
     title: "",
     width: 960,
     height: 500
@@ -18,6 +30,7 @@ function main(o, data) {
   var root,
       opts = $.extend(true, {}, defaults, o),
       formatNumber = d3.format(opts.format),
+      formatSuffix = d => `${formatNumber(d)} ha`;
       rname = opts.rootname,
       margin = opts.margin,
       theight = 36 + 16;
@@ -150,7 +163,7 @@ function main(o, data) {
         .attr("class", "child")
         .call(rect)
       .append("title")
-        .text(function(d) { return d.key + " (" + formatNumber(d.value) + ")"; });
+        .text(function(d) { return d.key + " (" + formatSuffix(d.value) + ")"; });
     children.append("text")
         .attr("class", "ctext")
         .text(function(d) { return d.key; })
@@ -168,7 +181,7 @@ function main(o, data) {
         .text(function(d) { return d.key; });
     t.append("tspan")
         .attr("dy", "1.0em")
-        .text(function(d) { return formatNumber(d.value); });
+        .text(function(d) { return formatSuffix(d.value); });
     t.call(text);
 
     g.selectAll("rect")
@@ -236,8 +249,8 @@ function main(o, data) {
 
   function name(d) {
     return d.parent
-        ? name(d.parent) + " / " + d.key + " (" + formatNumber(d.value) + ")"
-        : d.key + " (" + formatNumber(d.value) + ")";
+        ? name(d.parent) + " / " + d.key + " (" + formatSuffix(d.value) + ")"
+        : d.key + " (" + formatSuffix(d.value) + ")";
   }
 }
 
