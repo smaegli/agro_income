@@ -1,15 +1,43 @@
-﻿useType,agroType,key,value,conf,figure,year
-Wald,,,4.5749,1.5752,ha_Wald,2015
-Übrige Flächen ausserhalb der LN,,,0.6476,0.0872,ha_uebrige_Flaechen_ausserh_LN,2015
-Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Brotgetreide,1.8822,0.1223,ha_Brotgetreide,2015
-Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Ölsaaten,0.6004,0.0635,ha_Oelsaaten,2015
-Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Zuckerrüben,0.4702,0.0525,ha_Zuckerrueben,2015
-Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Kartoffeln,0.3167,0.0455,ha_Kartoffeln,2015
-Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Futtergetreide,1.0206,0.0761,ha_Futtergetreide,2015
-Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Körnermais,0.2744,0.0418,ha_Koernermais,2015
-Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Silo- und Grünmais,1.1086,0.0748,ha_Silomais,2015
-Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Übrige offene Ackerfläche,0.6414,0.0659,ha_uebrige_offene_Ackerflaeche,2015
-Landwirtschaftliche Nutzfläche (LN),Grünland,Kunstwiesen,3.1933,0.1741,ha_Kunstwiesen,2015
-Landwirtschaftliche Nutzfläche (LN),Grünland,"Naturwiesen, Dauerweiden, übriges Grünland",14.4945,0.378,ha_Dauergruenland_etc,2015
-Landwirtschaftliche Nutzfläche (LN),Dauerkulturen,,0.5047,0.0646,ha_Dauerkulturen,2015
-Landwirtschaftliche Nutzfläche (LN),Übrige Flächen innerhalb LN,,0.4044,0.0475,ha_uebrige_Flaechen_innerh_LN,2015
+﻿region,useType,agroType,key,value,conf,figure,year
+Region 1,Wald,,,2.2062,0.3645,ha_Wald,2015
+Region 1,Übrige Flächen ausserhalb der LN,,,0.5994,0.1096,ha_uebrige_Flaechen_ausserh_LN,2015
+Region 1,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Brotgetreide,3.7194,0.2736,ha_Brotgetreide,2015
+Region 1,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Ölsaaten,1.2411,0.1448,ha_Oelsaaten,2015
+Region 1,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Zuckerrüben,1.0894,0.1226,ha_Zuckerrueben,2015
+Region 1,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Kartoffeln,0.6738,0.1052,ha_Kartoffeln,2015
+Region 1,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Futtergetreide,1.6016,0.1579,ha_Futtergetreide,2015
+Region 1,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Körnermais,0.6287,0.098,ha_Koernermais,2015
+Region 1,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Silo- und Grünmais,1.9357,0.1627,ha_Silomais,2015
+Region 1,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Übrige offene Ackerfläche,1.3846,0.1525,ha_uebrige_offene_Ackerflaeche,2015
+Region 1,Landwirtschaftliche Nutzfläche (LN),Grünland,Kunstwiesen,4.3206,0.309,ha_Kunstwiesen,2015
+Region 1,Landwirtschaftliche Nutzfläche (LN),Grünland,"Naturwiesen, Dauerweiden, übriges Grünland",9.1352,0.4644,ha_Dauergruenland_etc,2015
+Region 1,Landwirtschaftliche Nutzfläche (LN),Dauerkulturen,,1.0589,0.1492,ha_Dauerkulturen,2015
+Region 1,Landwirtschaftliche Nutzfläche (LN),Übrige Flächen innerhalb LN,,0.2853,0.042,ha_uebrige_Flaechen_innerh_LN,2015
+Region 2,Wald,,,3.1984,0.3355,ha_Wald,2015
+Region 2,Übrige Flächen ausserhalb der LN,,,0.6097,0.0806,ha_uebrige_Flaechen_ausserh_LN,2015
+Region 2,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Brotgetreide,1.0971,0.1281,ha_Brotgetreide,2015
+Region 2,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Ölsaaten,0.2749,0.0554,ha_Oelsaaten,2015
+Region 2,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Zuckerrüben,0.0346,0.0201,ha_Zuckerrueben,2015
+Region 2,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Kartoffeln,0.1054,0.0335,ha_Kartoffeln,2015
+Region 2,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Futtergetreide,1.1568,0.1207,ha_Futtergetreide,2015
+Region 2,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Körnermais,0.0296,0.015,ha_Koernermais,2015
+Region 2,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Silo- und Grünmais,1.0041,0.0981,ha_Silomais,2015
+Region 2,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Übrige offene Ackerfläche,0.184,0.039,ha_uebrige_offene_Ackerflaeche,2015
+Region 2,Landwirtschaftliche Nutzfläche (LN),Grünland,Kunstwiesen,4.3125,0.3521,ha_Kunstwiesen,2015
+Region 2,Landwirtschaftliche Nutzfläche (LN),Grünland,"Naturwiesen, Dauerweiden, übriges Grünland",14.3177,0.6426,ha_Dauergruenland_etc,2015
+Region 2,Landwirtschaftliche Nutzfläche (LN),Dauerkulturen,,0.131,0.023,ha_Dauerkulturen,2015
+Region 2,Landwirtschaftliche Nutzfläche (LN),Übrige Flächen innerhalb LN,,0.3403,0.0627,ha_uebrige_Flaechen_innerh_LN,2015
+Region 3,Wald,,,0.0311,0.0178,ha_Wald,2015
+Region 3,Übrige Flächen ausserhalb der LN,,,0.0013,0.0025,ha_uebrige_Flaechen_ausserh_LN,2015
+Region 3,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Brotgetreide,0,0,ha_Brotgetreide,2015
+Region 3,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Ölsaaten,0.0094,0.0062,ha_Oelsaaten,2015
+Region 3,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Zuckerrüben,0.0898,0.0417,ha_Zuckerrueben,2015
+Region 3,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Kartoffeln,0.0014,0.0023,ha_Kartoffeln,2015
+Region 3,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Futtergetreide,0.0517,0.0228,ha_Futtergetreide,2015
+Region 3,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Körnermais,0.0182,0.0113,ha_Koernermais,2015
+Region 3,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Silo- und Grünmais,0.6196,0.1657,ha_Silomais,2015
+Region 3,Landwirtschaftliche Nutzfläche (LN),Offene Ackerfläche,Übrige offene Ackerfläche,22.1101,0.726,ha_uebrige_offene_Ackerflaeche,2015
+Region 3,Landwirtschaftliche Nutzfläche (LN),Grünland,Kunstwiesen,0.069,0.0138,ha_Kunstwiesen,2015
+Region 3,Landwirtschaftliche Nutzfläche (LN),Grünland,"Naturwiesen, Dauerweiden, übriges Grünland",0.6278,0.1317,ha_Dauergruenland_etc,2015
+Region 3,Landwirtschaftliche Nutzfläche (LN),Dauerkulturen,,9.107,5.1006,ha_Dauerkulturen,2015
+Region 3,Landwirtschaftliche Nutzfläche (LN),Übrige Flächen innerhalb LN,,0.7489,0.2241,ha_uebrige_Flaechen_innerh_LN,2015

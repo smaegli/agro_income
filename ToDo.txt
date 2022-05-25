@@ -1,10 +1,5 @@
-- Zahlenformat anpassen (Values werden aktuell nicht angezeigt, weil float und nicht integer)
 - Datenfilter: Jahr
+- verschiedene Themen anbieten (neben Kulturflächen)
 - Texte verfassen (Beschreibung, Methoden, Auswertung usw.)
 - (Responsive Visualisierung)
 
-
-Rückmeldung: 
-
-- Startansicht: es soll mehr sichtbar sein, evt. Treemap klein anzegien, Option mit Vergrösserung
-- Datensatz in JSON konvertieren / oder CSV Parser verwenden

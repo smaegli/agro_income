@@ -1,82 +1,99 @@
 // function to filter by year
-function setyear() {
-  if (document.getElementById("year2015").checked) {
-      yearkey = "2015";
-  }
-  if (document.getElementById("year2016").checked) {
-      yearkey = "2016";
-  }
-}
+//var agroData = d3.json("../data/agroData.json", function (data) {
+//});
+//
+//function filterJSON(json, key, value) {
+//  var result = [];
+//  for (var indicator in json) {
+//    if (json[indicator][key] === value) {
+//      result.push(json[indicator]);
+//    }
+//  }
+//  return result;
+//}
+
+//var filtered = filterJSON(agroData, 'year', '2016');
+//console.log(filtered);
+//
+//function setyear() {
+//  if (document.getElementById("year2015").checked) {
+//    var yearkey = x;
+//  }
+//  if (document.getElementById("year2016").checked) {
+//    var filtered = filterJSON(agroData, 'year', '2016');
+//  }
+//}
+
 
 
 // treemap
-window.addEventListener('message', function(e) {
-    var opts = e.data.opts,
-        data = e.data.data;
+window.addEventListener('message', function (e) {
+  var opts = e.data.opts,
+    data = e.data.data;
 
-    return main(opts, data);
+  return main(opts, data);
 });
 
 var defaults = {
-    margin: {top: 24, right: 0, bottom: 0, left: 0},
-    rootname: "TOP",
-    format: ".2f",
-    title: "",
-    width: 960,
-    height: 500
+  margin: { top: 24, right: 0, bottom: 0, left: 0 },
+  rootname: "TOP",
+  format: ".2f",
+  title: "",
+  width: 960,
+  height: 500
 };
 
 function main(o, data) {
   var root,
-      opts = $.extend(true, {}, defaults, o),
-      formatNumber = d3.format(opts.format),
-      formatSuffix = d => `${formatNumber(d)} ha`;
-      rname = opts.rootname,
-      margin = opts.margin,
-      theight = 36 + 16;
+    opts = $.extend(true, {}, defaults, o),
+    formatNumber = d3.format(opts.format),
+    formatSuffix = d => `${formatNumber(d)} ha`;
+  rname = opts.rootname,
+    margin = opts.margin,
+    theight = 36 + 16;
 
   $('#myvis').width(opts.width).height(opts.height);
   var width = opts.width - margin.left - margin.right,
-      height = opts.height - margin.top - margin.bottom - theight,
-      transitioning;
-  
+    height = opts.height - margin.top - margin.bottom - theight,
+    transitioning;
+
   var color = d3.scale.category20c();
-  
+
   var x = d3.scale.linear()
-      .domain([0, width])
-      .range([0, width]);
-  
+    .domain([0, width])
+    .range([0, width]);
+
   var y = d3.scale.linear()
-      .domain([0, height])
-      .range([0, height]);
-  
+    .domain([0, height])
+    .range([0, height]);
+
   var treemap = d3.layout.treemap()
-      .children(function(d, depth) { return depth ? null : d._children; })
-      .sort(function(a, b) { return a.value - b.value; })
-      .ratio(height / width * 0.5 * (1 + Math.sqrt(5)))
-      .round(false);
-  
+    .children(function (d, depth) { return depth ? null : d._children; })
+    .sort(function (a, b) { return a.value - b.value; })
+    .ratio(height / width * 0.5 * (1 + Math.sqrt(5)))
+    .round(false);
+
   var svg = d3.select("#myvis").append("svg")
-      .attr("width", width + margin.left + margin.right)
-      .attr("height", height + margin.bottom + margin.top)
-      .style("margin-left", -margin.left + "px")
-      .style("margin.right", -margin.right + "px")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.bottom + margin.top)
+    .style("margin-left", -margin.left + "px")
+    .style("margin.right", -margin.right + "px")
     .append("g")
-      .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-      .style("shape-rendering", "crispEdges");
-  
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+    .style("shape-rendering", "crispEdges");
+
   var grandparent = svg.append("g")
-      .attr("class", "grandparent");
-  
+    .attr("class", "grandparent");
+
   grandparent.append("rect")
-      .attr("y", -margin.top)
-      .attr("width", width)
-      .attr("height", margin.top);
-  
+    .attr("y", -margin.top)
+    .attr("width", width)
+    .attr("height", margin.top);
+
   grandparent.append("text")
-      .attr("x", 6)
-      .attr("y", 6 - margin.top)
-      .attr("dy", ".75em");
+    .attr("x", 6)
+    .attr("y", 6 - margin.top)
+    .attr("dy", ".75em");
 
   if (opts.title) {
     $("#myvis").prepend("<p class='title'>" + opts.title + "</p>");
@@ -86,7 +103,7 @@ function main(o, data) {
   } else {
     root = data;
   }
-    
+
   initialize(root);
   accumulate(root);
   layout(root);
@@ -95,7 +112,7 @@ function main(o, data) {
 
   if (window.parent !== window) {
     var myheight = document.documentElement.scrollHeight || document.body.scrollHeight;
-    window.parent.postMessage({height: myheight}, '*');
+    window.parent.postMessage({ height: myheight }, '*');
   }
 
   function initialize(root) {
@@ -111,8 +128,8 @@ function main(o, data) {
   // the children being overwritten when when layout is computed.
   function accumulate(d) {
     return (d._children = d.values)
-        ? d.value = d.values.reduce(function(p, v) { return p + accumulate(v); }, 0)
-        : d.value;
+      ? d.value = d.values.reduce(function (p, v) { return p + accumulate(v); }, 0)
+      : d.value;
   }
 
   // Compute the treemap layout recursively such that each group of siblings
@@ -124,8 +141,8 @@ function main(o, data) {
   // coordinates. This lets us use a viewport to zoom.
   function layout(d) {
     if (d._children) {
-      treemap.nodes({_children: d._children});
-      d._children.forEach(function(c) {
+      treemap.nodes({ _children: d._children });
+      d._children.forEach(function (c) {
         c.x = d.x + c.x * d.dx;
         c.y = d.y + c.y * d.dy;
         c.dx *= d.dx;
@@ -138,62 +155,62 @@ function main(o, data) {
 
   function display(d) {
     grandparent
-        .datum(d.parent)
-        .on("click", transition)
+      .datum(d.parent)
+      .on("click", transition)
       .select("text")
-        .text(name(d));
+      .text(name(d));
 
     var g1 = svg.insert("g", ".grandparent")
-        .datum(d)
-        .attr("class", "depth");
+      .datum(d)
+      .attr("class", "depth");
 
     var g = g1.selectAll("g")
-        .data(d._children)
+      .data(d._children)
       .enter().append("g");
 
-    g.filter(function(d) { return d._children; })
-        .classed("children", true)
-        .on("click", transition);
+    g.filter(function (d) { return d._children; })
+      .classed("children", true)
+      .on("click", transition);
 
     var children = g.selectAll(".child")
-        .data(function(d) { return d._children || [d]; })
+      .data(function (d) { return d._children || [d]; })
       .enter().append("g");
 
     children.append("rect")
-        .attr("class", "child")
-        .call(rect)
+      .attr("class", "child")
+      .call(rect)
       .append("title")
-        .text(function(d) { return d.key + " (" + formatSuffix(d.value) + ")"; });
+      .text(function (d) { return d.key + " (" + formatSuffix(d.value) + ")"; });
     children.append("text")
-        .attr("class", "ctext")
-        .text(function(d) { return d.key; })
-        .call(text2);
+      .attr("class", "ctext")
+      .text(function (d) { return d.key; })
+      .call(text2);
 
     g.append("rect")
-        .attr("class", "parent")
-        .call(rect);
+      .attr("class", "parent")
+      .call(rect);
 
     var t = g.append("text")
-        .attr("class", "ptext")
-        .attr("dy", ".75em")
+      .attr("class", "ptext")
+      .attr("dy", ".75em")
 
     t.append("tspan")
-        .text(function(d) { return d.key; });
+      .text(function (d) { return d.key; });
     t.append("tspan")
-        .attr("dy", "1.0em")
-        .text(function(d) { return formatSuffix(d.value); });
+      .attr("dy", "1.0em")
+      .text(function (d) { return formatSuffix(d.value); });
     t.call(text);
 
     g.selectAll("rect")
-        .style("fill", function(d) { return color(d.key); });
+      .style("fill", function (d) { return color(d.key); });
 
     function transition(d) {
       if (transitioning || !d) return;
       transitioning = true;
 
       var g2 = display(d),
-          t1 = g1.transition().duration(750),
-          t2 = g2.transition().duration(750);
+        t1 = g1.transition().duration(750),
+        t2 = g2.transition().duration(750);
 
       // Update the domain only after entering new elements.
       x.domain([d.x, d.x + d.dx]);
@@ -203,7 +220,7 @@ function main(o, data) {
       svg.style("shape-rendering", null);
 
       // Draw child nodes on top of parent nodes.
-      svg.selectAll(".depth").sort(function(a, b) { return a.depth - b.depth; });
+      svg.selectAll(".depth").sort(function (a, b) { return a.depth - b.depth; });
 
       // Fade-in entering text.
       g2.selectAll("text").style("fill-opacity", 0);
@@ -217,7 +234,7 @@ function main(o, data) {
       t2.selectAll("rect").call(rect);
 
       // Remove the old node when the transition is finished.
-      t1.remove().each("end", function() {
+      t1.remove().each("end", function () {
         svg.style("shape-rendering", "crispEdges");
         transitioning = false;
       });
@@ -228,38 +245,38 @@ function main(o, data) {
 
   function text(text) {
     text.selectAll("tspan")
-        .attr("x", function(d) { return x(d.x) + 6; })
-    text.attr("x", function(d) { return x(d.x) + 6; })
-        .attr("y", function(d) { return y(d.y) + 6; })
-        .style("opacity", function(d) { return this.getComputedTextLength() < x(d.x + d.dx) - x(d.x) ? 1 : 0; });
+      .attr("x", function (d) { return x(d.x) + 6; })
+    text.attr("x", function (d) { return x(d.x) + 6; })
+      .attr("y", function (d) { return y(d.y) + 6; })
+      .style("opacity", function (d) { return this.getComputedTextLength() < x(d.x + d.dx) - x(d.x) ? 1 : 0; });
   }
 
   function text2(text) {
-    text.attr("x", function(d) { return x(d.x + d.dx) - this.getComputedTextLength() - 6; })
-        .attr("y", function(d) { return y(d.y + d.dy) - 6; })
-        .style("opacity", function(d) { return this.getComputedTextLength() < x(d.x + d.dx) - x(d.x) ? 1 : 0; });
+    text.attr("x", function (d) { return x(d.x + d.dx) - this.getComputedTextLength() - 6; })
+      .attr("y", function (d) { return y(d.y + d.dy) - 6; })
+      .style("opacity", function (d) { return this.getComputedTextLength() < x(d.x + d.dx) - x(d.x) ? 1 : 0; });
   }
 
   function rect(rect) {
-    rect.attr("x", function(d) { return x(d.x); })
-        .attr("y", function(d) { return y(d.y); })
-        .attr("width", function(d) { return x(d.x + d.dx) - x(d.x); })
-        .attr("height", function(d) { return y(d.y + d.dy) - y(d.y); });
+    rect.attr("x", function (d) { return x(d.x); })
+      .attr("y", function (d) { return y(d.y); })
+      .attr("width", function (d) { return x(d.x + d.dx) - x(d.x); })
+      .attr("height", function (d) { return y(d.y + d.dy) - y(d.y); });
   }
 
   function name(d) {
     return d.parent
-        ? name(d.parent) + " / " + d.key + " (" + formatSuffix(d.value) + ")"
-        : d.key + " (" + formatSuffix(d.value) + ")";
+      ? name(d.parent) + " / " + d.key + " (" + formatSuffix(d.value) + ")"
+      : d.key + " (" + formatSuffix(d.value) + ")";
   }
 }
 
-if (window.location.hash === "") {
-    d3.json("../data/agroData.json", function(err, res) {
-        if (!err) {
-            console.log(res);
-            var data = d3.nest().key(function(d) { return d.useType; }).key(function(d) { return d.agroType; }).entries(res);
-            main({title: "Kulturflächen"}, {key: "Total Kulturflächen", values: data});
-        }
-    });
+if (window.location.hash === "" && document.getElementById("year2015").checked) {
+  d3.json("../data/agroData2015test.json", function (err, res) {
+    if (!err) {
+      console.log(res);
+      var data = d3.nest().key(function (d) { return d.region; }).key(function (d) { return d.useType; }).key(function (d) { return d.agroType; }).entries(res);
+      main({ title: "Kulturflächen" }, { key: "Total Kulturflächen", values: data });
+    }
+  });
 }
