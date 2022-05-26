@@ -26,8 +26,8 @@
   <div class="header">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
       <div class="container-fluid">
-        <img src="/img/logo_highland.png" class="img-fluid img-profile rounded-circle mr-4" href="#top" width="60"
-          height="60">
+        <a href="#"><img src="/img/logo_highland.png" class="img-fluid img-profile rounded-circle mr-4" width="60"
+            height="60"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -109,9 +109,9 @@
             Für jede Gruppe wird die Einkommenssumme (Achtung: Summe ist abhängig von der Anzahl Stichproben!)
             angezeigt. Die Grösse der einzelnen Kacheln
             ist abhängig von der Summe. Da für kleine Kacheln die Beschriftung zum viel Platz einnimmt, können die Infos
-            zusätzlich per Tooltip angezeigt werden.
+            zusätzlich per Tooltip (Mauszeiger darauf halten) angezeigt werden.
             Aufgrund der schlechten Lesbarkeit auf kleineren Screens wurde entschieden, die Visualisierung nicht
-            responsive zu machen. 
+            responsive zu machen.
           </div>
         </div>
       </div>
@@ -165,12 +165,15 @@
               <li class="font-weight-bold lead mb-2">Literatur</li>
               <ul>
                 <li>[1] <a
-                    href="https://www.agroscope.admin.ch/agroscope/de/home/themen/wirtschaft-technik/betriebswirtschaft/zabh/agrarmonitoring.html">Agrarmonitoring,
+                    href="https://www.agroscope.admin.ch/agroscope/de/home/themen/wirtschaft-technik/betriebswirtschaft/zabh/agrarmonitoring.html"
+                    target="blank">Agrarmonitoring,
                     Agroscope</a></li>
                 <li>[2] <a
-                    href="https://www.agroscope.admin.ch/agroscope/de/home/themen/wirtschaft-technik/betriebswirtschaft/zabh/einkommenssituation.html">Stichprobe
+                    href="https://www.agroscope.admin.ch/agroscope/de/home/themen/wirtschaft-technik/betriebswirtschaft/zabh/einkommenssituation.html"
+                    target="blank">Stichprobe
                     Einkommenssituation, Agroscope</a></li>
-                <li>[3] <a href="https://ira.agroscope.ch/de-CH/publication/41862">Betriebstypologie ZA2015 der
+                <li>[3] <a href="https://ira.agroscope.ch/de-CH/publication/41862" target="blank">Betriebstypologie
+                    ZA2015 der
                     Zentralen Auswertung von
                     Buchhaltungsdaten
                   </a></li>
@@ -178,26 +181,44 @@
               <br>
               <li class="font-weight-bold lead mb-2">Code</li>
               <ul>
-              <li>[4] <a href="http://bl.ocks.org/ganeshv/6a8e9ada3ab7f2d88022">Zoomable Treemap
-                </a></li>
+                <li>[4] <a href="http://bl.ocks.org/ganeshv/6a8e9ada3ab7f2d88022" target="blank">Zoomable Treemap
+                  </a></li>
               </ul>
               <br>
+              <li class="font-weight-bold lead mb-2">Daten</li>
+              <ul>
+                <li><a href="/data/agroData_raw.csv" download="">Landwirtschaftliche Buchhaltungsdaten, Agroscope
+                    (CSV, Rohdaten)
+                  </a></li>
+                <li><a href="/data/agroDataInc.json" download="">Für die Visualisierung verwendete JSON-Datei
+                  </a></li><br>
+              </ul>
               <li class="font-weight-bold lead mb-2">Grafiken</li>
               <ul>
-              <li><a href="https://pixabay.com/de/photos/highlander-stier-ochse-das-vieh-1128786/">Logo (Kuh)
-                </a></li>
-                <li><a href="https://pixabay.com/de/photos/traktor-pflug-landwirtschaft-feld-5753374/">Background Image
-                </a></li>
+                <li><a href="https://pixabay.com/de/photos/highlander-stier-ochse-das-vieh-1128786/" target="blank">Logo
+                    (Kuh)
+                  </a></li>
+                <li><a href="https://pixabay.com/de/photos/traktor-pflug-landwirtschaft-feld-5753374/"
+                    target="blank">Background Image
+                  </a></li>
               </ul>
-            </ul>
+            </ul><br>
+            <p>Ein herzlicher Dank gebührt Daniel Hoop (Agroscope) für die Bereitstellung der Daten und konzeptionelle
+              Unterstützung, dem Open Data Team der Universität Bern für die Unterstützung beim Programmieren
+              sowie allen Open Data Creators!</p>
+            <p>Das gesamte Visualisierungsprojekt ist auch auf <a href="https://github.com/smaegli/agro_income"
+                target="blank">Github</a> verfügbar</p>
           </div>
         </div>
-
-        <footer class="pt-3 mt-4 text-muted border-top">
-          &copy; 2022
-        </footer>
-
       </div>
+
+      <footer class="pt-3 mt-4 text-muted border-top">
+        <p id="center">&copy; 2022 Simon Mägli - MSc Geographie, Universität Bern</p>
+        <p id="center">published under GNU General Public License</p>
+        <p id="center">Kontakt: simon.maegli@students.unibe.ch</p>
+      </footer>
+
+    </div>
   </main>
 
   <!-- Optional JavaScript -->
