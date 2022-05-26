@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="/src/style.css">
   <!-- D3.js -->
   <script src="https://d3js.org/d3.v3.js"></script>
-  <script src="/src/vis_v4.js" defer></script>
+  <script src="/src/vis.js" defer></script>
 
   <title>Open Data Visualisierung</title>
 </head>
@@ -21,12 +21,13 @@
 <body>
 
 
-  <div class="background fixed-top"></div>
+  <div class="background fixed-top" id="top"></div>
 
   <div class="header">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Icon</a>
+        <img src="/img/logo_highland.png" class="img-fluid img-profile rounded-circle mr-4" href="#top" width="60"
+          height="60">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -34,13 +35,16 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#introduction">Einführung</a>
+              <a class="nav-link" href="#introduction">Einleitung</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#approach">Vorgehen</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#visualisation">Visualisierung</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#methods">Methoden</a>
+              <a class="nav-link" href="#interpretation">Interpretation</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#sources">Quellen</a>
@@ -62,81 +66,138 @@
       </div>
 
       <div id="introduction" class="shadow p-5 mb-4 bg-light border rounded-3">
-        <div class="container-fluid py-5">
-          <h1 class="display-5 fw-bold">Einführung</h1>
-          <p class="col-md-8 fs-4">Meine Einführung</p>
+        <div class="container-fluid py-2">
+          <h1 class="display-5 fw-bold pb-2">Einleitung</h1>
+          <div class="lead col-md-12 fs-4" id="text">Im Rahmen eines Agrarmonitorings erhebt Agroscope, das
+            Kompetenzzentrum der Schweiz
+            für landwirtschaftliche Forschung, landwirtschaftliche Buchhaltungsdaten. Ein Teil des Monitorings ist die
+            Auswertung der Einkommenssituation.
+            Die Berechnung basiert auf gesamtbetrieblichen Kennzahlen aus der Finanzbuchhaltung, ergänzt mit Angaben aus
+            der Steuererklärung, mit Arbeitszeitangaben und Strukturmerkmalen.
+            Die Betriebe werden anhand eines Auswahlplans zufällig so ausgewählt, dass die Schätzung des Einkommens auf
+            Ebene Schweiz und Ebene der Regionen möglichst genau ist.
+            Die Stichprobe umfasst rund 2000 Abschlüsse <a href="#sources">[1]</a>. Dank dem landwirtschaftlichen
+            Einkommensmonitoring kann der
+            Bund beurteilen,
+            ob die Schweizer Agrarpolitik passende Rahmenbedingungen bietet und somit Früchte trägt. <a
+              href="#sources">[2]</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="approach" class="shadow p-5 mb-4 bg-light border rounded-3">
+        <div class="container-fluid py-2">
+          <h1 class="display-5 fw-bold pb-2">Vorgehen</h1>
+          <div class="lead col-md-12 fs-4" id="text">
+            Für die vorliegende Visualisierung wurden landw. Einkommensdaten aus den Jahren 2015 bis 2020,
+            aufgeschlüsselt nach <mark title="Talregion, Hügelregion, Bergregion">Regionen</mark>,
+            <mark title="Ackerbau, Spezialkulturen, Milchkühe, Mutterkühe, Rindvieh gemischt, Pferde/Schafe/Ziegen, Veredlung, Kombiniert Milchkühe/Ackerbau,
+            Kombiniert Mutterkühe, Kombiniert Veredlung, Kombiniert Andere">Betriebstyp</mark> sowie nach <mark
+              title="Landwirtschaftliches Einkommen, Ausserlandwirtschaftliches Einkommen">Einkommensart</mark>,
+            verwendet
+            (Infos zur Unterteilung von Betriebstypen siehe <a href="#sources">[3]</a>).<br>
+            Die Daten wurden durch Agroscope in Form einer <a href="#sources">CSV-Datei</a> sowie eines
+            Übersetzungsschlüssels
+            zu Verfügung gestellt.
+            Daraus wurden die gewünschten Variablen aufbereitet und anschliessend im JSON-Format abgespeichert.<br>
+            Dargestellt werden die Daten mittels <mark>Zoomable Treemap</mark> [4]. Hierbei kann per Mausklick zwischen
+            hierarchischen Ebenen gezoomt werden.
+            Über die orange Fläche am oberen Rand gelangt man jeweils auf die nächstgrössere Ebene während über die
+            restlichen Kacheln die jeweils nächsttiefere
+            Ebene angewählt werden kann. Die Daten wurden in der obersten Ebene nach Jahr, dann nach Region, Betriebstyp
+            und Einkommensart gruppiert.
+            Für jede Gruppe wird die Einkommenssumme (Achtung: Summe ist abhängig von der Anzahl Stichproben!)
+            angezeigt. Die Grösse der einzelnen Kacheln
+            ist abhängig von der Summe. Da für kleine Kacheln die Beschriftung zum viel Platz einnimmt, können die Infos
+            zusätzlich per Tooltip angezeigt werden.
+            Aufgrund der schlechten Lesbarkeit auf kleineren Screens wurde entschieden, die Visualisierung nicht
+            responsive zu machen. 
+          </div>
         </div>
       </div>
 
       <div id="visualisation" class="shadow p-5 mb-4 bg-light border rounded-3">
-        <div class="container-fluid py-5">
-          <h1 class="display-5 fw-bold">Visualisierung</h1>
-
-          <form class="m-4">
-            <span class="mr-3">Jahr:</span>
-            <label class="radio-inline mr-2">
-              <input type="radio" name="yearselector" id="year2015" checked> 2015
-            </label>
-            <label class="radio-inline mr-2">
-              <input type="radio" name="yearselector" id="year2016">
-              2016
-            </label>
-            <label class="radio-inline mr-2">
-              <input type="radio" name="yearselector" id="year2017">
-              2017
-            </label>
-            <label class="radio-inline mr-2">
-              <input type="radio" name="yearselector" id="year2018">
-              2018
-            </label>
-            <label class="radio-inline mr-2">
-              <input type="radio" name="yearselector" id="year2019">
-              2019
-            </label>
-            <label class="radio-inline mr-2">
-              <input type="radio" name="yearselector" id="year2020">
-              2020
-            </label>
-          </form>
-
-          <div class="m-4">
-            Ansicht nach:
-            <input type="radio" id="dimension" name="dimension" class="ml-2" onclick="setregion()" checked>
-            <label for="html" class="mr-2">Landwirtschaftsregion</label>
-            <input type="radio" id="dimension" name="dimension" onclick="setbetriebstyp()">
-            <label for="css">Betriebstyp</label><br>
-          </div>
+        <div class="container-fluid py-2">
+          <h1 class="display-5 fw-bold mb-5">Visualisierung</h1>
           <div id="myvis" width="100%" height="600px"></div>
         </div>
       </div>
 
-
-
-
-
-      <div id="methods" class="shadow p-5 mb-4 bg-light border rounded-3">
-        <div class="container-fluid py-5">
-          <h1 class="display-5 fw-bold">Methoden</h1>
-          <p class="col-md-8 fs-4">Meine Methoden</p>
+      <div id="interpretation" class="shadow p-5 mb-4 bg-light border rounded-3">
+        <div class="container-fluid py-2">
+          <h1 class="display-5 fw-bold pb-2">Interpretation</h1>
+          <div class="lead col-md-12 fs-4" id="text">
+            Aus der Visualisierung ist ersichtlich, dass das Gesamteinkommen landwirtschaftlicher Betriebe (Achtung:
+            keine absoluten Werte, sondern basierend auf Durchschnittswerten der Stichproben!) über die Jahre 2015 bis
+            2020 stetig gestiegen ist.
+            Weiter ist ersichtlich, dass das Einkommen in der Talregion (Mittelland, mehr Grossbetriebe) am höchsten und
+            in der Bergregion (mehr kleinere Betriebe)
+            am tiefsten ist. Dies ist über alle Jahre der Fall. Untersucht man eine Ebene tiefer, erkennt man, dass die
+            verschiedenen Betriebstypen pro Region unterschiedlich
+            vertreten sind und auch unterschiedliche Einkommenssummen aufweisen. Erwartungsgemäss ist der Betriebstyp
+            "Ackerbau" in der Bergregion nicht und in der Hügelzone
+            nur als Mischtyp (Kombiniert Milchkühe/Ackerbau) vertreten. In der Bergzone ebenfalls nicht vertreten ist
+            landschaftsbedingt der Typ "Spezialkulturen" (Gemüse/Gartenbau,
+            Obstbau, Weinbau). Auf der nächsttieferen Ebene wird die Einkommensart in landw. und ausserlandw. Einkommen
+            differenziert. Über alle Dimensionen (Jahre, Regionen, Betriebstypen)
+            beträgt der Anteil des ausserlandw. Einkommens schätzungsweise 20-50% des Gesamteinkommens eines landw.
+            Haushaltes. Präzisere Aussagen lassen sich dazu mittels Treemap
+            leider nicht ableiten.<br><br>
+            Zusammengefasst erlaubt die Visualisierung mittels Zoomable Treemap einen Vergleich nicht nur über
+            verschiedene Jahre, sondern auch
+            über die einzelnen Dimensionen (Region, Betriebstyp, Einkommensart). Durch die Zoom-Funktion
+            wird die Möglichkeit geschaffen,
+            die Daten interaktiv zu untersuchen. Dies stellt meiner Meinung nach einen effektiven Mehrwert, bspw. zu
+            einem klassischen Balkendiagramm dar. Da mit zunehmender Unterteilung (bspw. ab Ebene Einkommensart) das
+            Vergleichen schwieriger wird, würde ich
+            für eine zukünftige Analyse entweder die Option anbieten, eine zweite Treemap daneben konfigurieren zu
+            können, oder dann die Daten auch mittels
+            Balkendiagramm o.ä. darstellen zu können.
+          </div>
         </div>
       </div>
 
       <div id="sources" class="shadow p-5 mb-4 bg-light border rounded-3">
-        <div class="container-fluid py-5">
-          <h1 class="display-5 fw-bold">Quellen</h1>
-          <p class="col-md-8 fs-4">Treemap Design: https://d3-graph-gallery.com/graph/treemap_custom.html</p>
-          <p class="col-md-8 fs-4">Treemap Tooltip: http://bl.ocks.org/ndobie/90ae9f1a5c7f88ad4929</p>
-          <p class="col-md-8 fs-4">Dynamic Treemap: https://bl.ocks.org/ganezasan/52fced34d2182483995f0ca3960fe228</p>
-
-          http://bl.ocks.org/ganeshv/6a8e9ada3ab7f2d88022
+        <div class="container-fluid py-2">
+          <h1 class="display-5 fw-bold pb-2 mb-4">Quellen</h1>
+          <div class="lead col-md-12 fs-4" id="text">
+            <ul>
+              <li class="font-weight-bold lead mb-2">Literatur</li>
+              <ul>
+                <li>[1] <a
+                    href="https://www.agroscope.admin.ch/agroscope/de/home/themen/wirtschaft-technik/betriebswirtschaft/zabh/agrarmonitoring.html">Agrarmonitoring,
+                    Agroscope</a></li>
+                <li>[2] <a
+                    href="https://www.agroscope.admin.ch/agroscope/de/home/themen/wirtschaft-technik/betriebswirtschaft/zabh/einkommenssituation.html">Stichprobe
+                    Einkommenssituation, Agroscope</a></li>
+                <li>[3] <a href="https://ira.agroscope.ch/de-CH/publication/41862">Betriebstypologie ZA2015 der
+                    Zentralen Auswertung von
+                    Buchhaltungsdaten
+                  </a></li>
+              </ul>
+              <br>
+              <li class="font-weight-bold lead mb-2">Code</li>
+              <ul>
+              <li>[4] <a href="http://bl.ocks.org/ganeshv/6a8e9ada3ab7f2d88022">Zoomable Treemap
+                </a></li>
+              </ul>
+              <br>
+              <li class="font-weight-bold lead mb-2">Grafiken</li>
+              <ul>
+              <li><a href="https://pixabay.com/de/photos/highlander-stier-ochse-das-vieh-1128786/">Logo (Kuh)
+                </a></li>
+                <li><a href="https://pixabay.com/de/photos/traktor-pflug-landwirtschaft-feld-5753374/">Background Image
+                </a></li>
+              </ul>
+            </ul>
+          </div>
         </div>
+
+        <footer class="pt-3 mt-4 text-muted border-top">
+          &copy; 2022
+        </footer>
+
       </div>
-
-      <footer class="pt-3 mt-4 text-muted border-top">
-        &copy; 2022
-      </footer>
-
-    </div>
   </main>
 
   <!-- Optional JavaScript -->

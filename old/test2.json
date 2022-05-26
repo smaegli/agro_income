@@ -1,0 +1,158 @@
+{
+    "children": [
+      {
+        "name": "Region 1",
+        "children": [
+          {
+            "name": "Rinder",
+            "value": 26.0046,
+            "colname": "level3"
+          },
+          {
+            "name": "Milchkuehe",
+            "value": 16.5535,
+            "colname": "level3"
+          },
+          {
+            "name": "Mutterkuehe",
+            "value": 2.4915,
+            "colname": "level3"
+          },
+          {
+            "name": "Anderes Rindvieh",
+            "value": 6.5016,
+            "colname": "level3"
+          },
+          {
+            "name": "Pferde",
+            "value": 0.652,
+            "colname": "level3"
+          },
+          {
+            "name": "kleine Wiederkaeuer",
+            "value": 0.4803,
+            "colname": "level3"
+          },
+          {
+            "name": "Schweine",
+            "value": 5.9772,
+            "colname": "level3"
+          },
+          {
+            "name": "Gefluegel",
+            "value": 2.6538,
+            "colname": "level3"
+          },
+          {
+            "name": "Übrige Tiere",
+            "value": 0.0367,
+            "colname": "level3"
+          }
+        ],
+        "colname": "level2"
+      },
+      {
+        "name": "Region 2",
+        "children": [
+          {
+            "name": "Rinder",
+            "value": 26.9112,
+            "colname": "level3"
+          },
+          {
+            "name": "Milchkuehe",
+            "value": 17.2204,
+            "colname": "level3"
+          },
+          {
+            "name": "Mutterkuehe",
+            "value": 2.3974,
+            "colname": "level3"
+          },
+          {
+            "name": "Anderes Rindvieh",
+            "value": 7.0877,
+            "colname": "level3"
+          },
+          {
+            "name": "Pferde",
+            "value": 0.4213,
+            "colname": "level3"
+          },
+          {
+            "name": "kleine Wiederkaeuer",
+            "value": 1.0179,
+            "colname": "level3"
+          },
+          {
+            "name": "Schweine",
+            "value": 5.7371,
+            "colname": "level3"
+          },
+          {
+            "name": "Gefluegel",
+            "value": 1.5301,
+            "colname": "level3"
+          },
+          {
+            "name": "Übrige Tiere",
+            "value": 0.012,
+            "colname": "level3"
+          }
+        ],
+        "colname": "level2"
+      },
+      {
+        "name": "Region 3",
+        "children": [
+          {
+            "name": "Rinder",
+            "value": 22.4301,
+            "colname": "level3"
+          },
+          {
+            "name": "Milchkuehe",
+            "value": 12.6287,
+            "colname": "level3"
+          },
+          {
+            "name": "Mutterkuehe",
+            "value": 2.4203,
+            "colname": "level3"
+          },
+          {
+            "name": "Anderes Rindvieh",
+            "value": 7.2484,
+            "colname": "level3"
+          },
+          {
+            "name": "Pferde",
+            "value": 0.4631,
+            "colname": "level3"
+          },
+          {
+            "name": "kleine Wiederkaeuer",
+            "value": 1.2142,
+            "colname": "level3"
+          },
+          {
+            "name": "Schweine",
+            "value": 1.3457,
+            "colname": "level3"
+          },
+          {
+            "name": "Gefluegel",
+            "value": 0.4545,
+            "colname": "level3"
+          },
+          {
+            "name": "Übrige Tiere",
+            "value": 0.0056,
+            "colname": "level3"
+          }
+        ],
+        "colname": "level2"
+      }
+    ],
+    "name": "CEO"
+  }

@@ -1,0 +1,128 @@
+[
+  {
+    "useType": "Wald",
+    "agroType": "",
+    "key": "",
+    "value": 4.5749,
+    "conf": 1.5752,
+    "figure": "ha_Wald",
+    "year": 2015
+  },
+  {
+    "useType": "Übrige",
+    "agroType": "",
+    "key": "",
+    "value": 0.6476,
+    "conf": 0.0872,
+    "figure": "ha_uebrige_Flaechen_ausserh_LN",
+    "year": 2015
+  },
+  {
+    "useType": "Landwirtschaftliche Nutzfläche (LN)",
+    "agroType": "Offene Ackerfläche",
+    "key": "Brotgetreide",
+    "value": 1.8822,
+    "conf": 0.1223,
+    "figure": "ha_Brotgetreide",
+    "year": 2015
+  },
+  {
+    "useType": "Landwirtschaftliche Nutzfläche (LN)",
+    "agroType": "Offene Ackerfläche",
+    "key": "Ölsaaten",
+    "value": 0.6004,
+    "conf": 0.0635,
+    "figure": "ha_Oelsaaten",
+    "year": 2015
+  },
+  {
+    "useType": "Landwirtschaftliche Nutzfläche (LN)",
+    "agroType": "Offene Ackerfläche",
+    "key": "Zuckerrüben",
+    "value": 0.4702,
+    "conf": 0.0525,
+    "figure": "ha_Zuckerrueben",
+    "year": 2015
+  },
+  {
+    "useType": "Landwirtschaftliche Nutzfläche (LN)",
+    "agroType": "Offene Ackerfläche",
+    "key": "Kartoffeln",
+    "value": 0.3167,
+    "conf": 0.0455,
+    "figure": "ha_Kartoffeln",
+    "year": 2015
+  },
+  {
+    "useType": "Landwirtschaftliche Nutzfläche (LN)",
+    "agroType": "Offene Ackerfläche",
+    "key": "Futtergetreide",
+    "value": 1.0206,
+    "conf": 0.0761,
+    "figure": "ha_Futtergetreide",
+    "year": 2015
+  },
+  {
+    "useType": "Landwirtschaftliche Nutzfläche (LN)",
+    "agroType": "Offene Ackerfläche",
+    "key": "Körnermais",
+    "value": 0.2744,
+    "conf": 0.0418,
+    "figure": "ha_Koernermais",
+    "year": 2015
+  },
+  {
+    "useType": "Landwirtschaftliche Nutzfläche (LN)",
+    "agroType": "Offene Ackerfläche",
+    "key": "Silo- und Grünmais",
+    "value": 1.1086,
+    "conf": 0.0748,
+    "figure": "ha_Silomais",
+    "year": 2015
+  },
+  {
+    "useType": "Landwirtschaftliche Nutzfläche (LN)",
+    "agroType": "Offene Ackerfläche",
+    "key": "Übrige offene Ackerfläche",
+    "value": 0.6414,
+    "conf": 0.0659,
+    "figure": "ha_uebrige_offene_Ackerflaeche",
+    "year": 2015
+  },
+  {
+    "useType": "Landwirtschaftliche Nutzfläche (LN)",
+    "agroType": "Grünland",
+    "key": "Kunstwiesen",
+    "value": 3.1933,
+    "conf": 0.1741,
+    "figure": "ha_Kunstwiesen",
+    "year": 2015
+  },
+  {
+    "useType": "Landwirtschaftliche Nutzfläche (LN)",
+    "agroType": "Grünland",
+    "key": "Naturwiesen, Dauerweiden, übriges Grünland",
+    "value": 14.4945,
+    "conf": 0.378,
+    "figure": "ha_Dauergruenland_etc",
+    "year": 2015
+  },
+  {
+    "useType": "Landwirtschaftliche Nutzfläche (LN)",
+    "agroType": "Dauerkulturen",
+    "key": "",
+    "value": 0.5047,
+    "conf": 0.0646,
+    "figure": "ha_Dauerkulturen",
+    "year": 2015
+  },
+  {
+    "useType": "Landwirtschaftliche Nutzfläche (LN)",
+    "agroType": "Übrige Flächen innerhalb LN",
+    "key": "",
+    "value": 0.4044,
+    "conf": 0.0475,
+    "figure": "ha_uebrige_Flaechen_innerh_LN",
+    "year": 2015
+  }
+ ]

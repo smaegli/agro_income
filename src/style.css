@@ -12,27 +12,17 @@ main {
 }
 
 .navbar {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
-button {
-    position: relative;
-    right: 10px;
-    top: 10px;
+#text {
+  font-size:large;
+  justify-content: space-between;
 }
 
-#visualisation {
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
+ul {
+  list-style: none;
 }
-
-.selectfield {
-    width: 20%;
-    height: 25px;
-    margin-right: 5px;
-}
-
 
 /*Treemap */
 #myvis {
