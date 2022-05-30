@@ -1,0 +1,2522 @@
+[
+  {
+    "year": "Jahr 2020",
+    "region": "Talregion",
+    "type": "Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": 92595.3134
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Talregion",
+    "type": "Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 38596.9109
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Hügelregion",
+    "type": "Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Hügelregion",
+    "type": "Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Talregion",
+    "type": "Spezialkulturen",
+    "inc1": "Landw. Einkommen",
+    "value": 93379.9318
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Talregion",
+    "type": "Spezialkulturen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 42006.3576
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Hügelregion",
+    "type": "Spezialkulturen",
+    "inc1": "Landw. Einkommen",
+    "value": 79145.5137
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Hügelregion",
+    "type": "Spezialkulturen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 34804.3699
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Bergregion",
+    "type": "Spezialkulturen",
+    "inc1": "Landw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Bergregion",
+    "type": "Spezialkulturen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Talregion",
+    "type": "Milchkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 80110.1647
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Talregion",
+    "type": "Milchkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 36471.7196
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Hügelregion",
+    "type": "Milchkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 62905.2981
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Hügelregion",
+    "type": "Milchkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 31296.3964
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Bergregion",
+    "type": "Milchkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 59113.6632
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Bergregion",
+    "type": "Milchkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 29067.1451
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Talregion",
+    "type": "Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 72643.1098
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Talregion",
+    "type": "Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 40687.8759
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Hügelregion",
+    "type": "Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 55059.8724
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Hügelregion",
+    "type": "Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 52938.8942
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Bergregion",
+    "type": "Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 62871.4074
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Bergregion",
+    "type": "Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 32357.8995
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Talregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Landw. Einkommen",
+    "value": 52434.9959
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Talregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 38526.8635
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Hügelregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Landw. Einkommen",
+    "value": 56939.5892
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Hügelregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 38469.5286
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Bergregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Landw. Einkommen",
+    "value": 52129.8795
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Bergregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 28807.6251
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Talregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Landw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Talregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Hügelregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Landw. Einkommen",
+    "value": 55829.1441
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Hügelregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 33594.0981
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Bergregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Landw. Einkommen",
+    "value": 39760.305
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Bergregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 31547.2812
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Talregion",
+    "type": "Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 126433.4063
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Talregion",
+    "type": "Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 35780.4032
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Hügelregion",
+    "type": "Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 102370.9855
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Hügelregion",
+    "type": "Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 32726.2314
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Bergregion",
+    "type": "Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 109638.9269
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Bergregion",
+    "type": "Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 16289.0661
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Talregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": 82348.3701
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Talregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 24876.4941
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Hügelregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": 70799.602
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Hügelregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 24895.4591
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Talregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 78472.2675
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Talregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 46998.3248
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Hügelregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 52823.0847
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Hügelregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 51294.9911
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Talregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 117136.5766
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Talregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 31181.2259
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Hügelregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 91305.9539
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Hügelregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 29975.3308
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Bergregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 75458.8068
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Bergregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 26383.1778
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Talregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Landw. Einkommen",
+    "value": 85766.2585
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Talregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 37369.3735
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Hügelregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Landw. Einkommen",
+    "value": 63566.3323
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Hügelregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 38497.7157
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Bergregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Landw. Einkommen",
+    "value": 54199.1291
+  },
+  {
+    "year": "Jahr 2020",
+    "region": "Bergregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 35388.3402
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Talregion",
+    "type": "Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": 75767.0512
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Talregion",
+    "type": "Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 44746.186
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Hügelregion",
+    "type": "Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Hügelregion",
+    "type": "Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Talregion",
+    "type": "Spezialkulturen",
+    "inc1": "Landw. Einkommen",
+    "value": 96974.8092
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Talregion",
+    "type": "Spezialkulturen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 44158.8514
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Hügelregion",
+    "type": "Spezialkulturen",
+    "inc1": "Landw. Einkommen",
+    "value": 56323.596
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Hügelregion",
+    "type": "Spezialkulturen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 31630.7746
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Bergregion",
+    "type": "Spezialkulturen",
+    "inc1": "Landw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Bergregion",
+    "type": "Spezialkulturen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Talregion",
+    "type": "Milchkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 75285.5189
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Talregion",
+    "type": "Milchkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 31581.0028
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Hügelregion",
+    "type": "Milchkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 59084.4882
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Hügelregion",
+    "type": "Milchkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 30299.081
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Bergregion",
+    "type": "Milchkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 55984.9909
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Bergregion",
+    "type": "Milchkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 28379.6203
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Talregion",
+    "type": "Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 67368.5018
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Talregion",
+    "type": "Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 37383.7806
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Hügelregion",
+    "type": "Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 52791.764
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Hügelregion",
+    "type": "Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 50755.4023
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Bergregion",
+    "type": "Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 61108.5391
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Bergregion",
+    "type": "Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 35074.5688
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Talregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Landw. Einkommen",
+    "value": 57530.0874
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Talregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 35633.7074
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Hügelregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Landw. Einkommen",
+    "value": 45531.6376
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Hügelregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 39110.0177
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Bergregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Landw. Einkommen",
+    "value": 49632.8538
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Bergregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 25901.8017
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Talregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Landw. Einkommen",
+    "value": 88726.0992
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Talregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 10009.1658
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Hügelregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Landw. Einkommen",
+    "value": 52849.2218
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Hügelregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 31380.1529
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Bergregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Landw. Einkommen",
+    "value": 41701.898
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Bergregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 32365.1884
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Talregion",
+    "type": "Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 104673.894
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Talregion",
+    "type": "Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 37872.0607
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Hügelregion",
+    "type": "Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 100771.7251
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Hügelregion",
+    "type": "Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 33937.1357
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Bergregion",
+    "type": "Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 90478.8926
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Bergregion",
+    "type": "Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 35828.2184
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Talregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": 79789.5714
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Talregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 22883.275
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Hügelregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": 68968.7864
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Hügelregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 23486.346
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Talregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 72486.1126
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Talregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 48751.7017
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Hügelregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 60430.1865
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Hügelregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 54104.3211
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Talregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 106011.1871
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Talregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 30285.5832
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Hügelregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 84618.8069
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Hügelregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 29906.4646
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Bergregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 72457.3324
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Bergregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 26925.2807
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Talregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Landw. Einkommen",
+    "value": 82999.7445
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Talregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 28143.4295
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Hügelregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Landw. Einkommen",
+    "value": 65633.0672
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Hügelregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 32988.3405
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Bergregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Landw. Einkommen",
+    "value": 44501.123
+  },
+  {
+    "year": "Jahr 2019",
+    "region": "Bergregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 29332.4296
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Talregion",
+    "type": "Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": 76921.5624
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Talregion",
+    "type": "Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 41081.0368
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Hügelregion",
+    "type": "Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Hügelregion",
+    "type": "Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Talregion",
+    "type": "Spezialkulturen",
+    "inc1": "Landw. Einkommen",
+    "value": 97646.9568
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Talregion",
+    "type": "Spezialkulturen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 34328.708
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Hügelregion",
+    "type": "Spezialkulturen",
+    "inc1": "Landw. Einkommen",
+    "value": 58043.0807
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Hügelregion",
+    "type": "Spezialkulturen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 41151.7105
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Bergregion",
+    "type": "Spezialkulturen",
+    "inc1": "Landw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Bergregion",
+    "type": "Spezialkulturen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Talregion",
+    "type": "Milchkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 66567.4782
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Talregion",
+    "type": "Milchkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 31041.6864
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Hügelregion",
+    "type": "Milchkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 55559.0428
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Hügelregion",
+    "type": "Milchkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 30973.3963
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Bergregion",
+    "type": "Milchkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 55027.7405
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Bergregion",
+    "type": "Milchkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 25369.0449
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Talregion",
+    "type": "Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 58335.139
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Talregion",
+    "type": "Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 37210.7954
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Hügelregion",
+    "type": "Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 53742.6737
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Hügelregion",
+    "type": "Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 53584.3277
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Bergregion",
+    "type": "Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 60071.2381
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Bergregion",
+    "type": "Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 31211.1025
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Talregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Landw. Einkommen",
+    "value": 82301.4421
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Talregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 26536.7576
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Hügelregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Landw. Einkommen",
+    "value": 44050.0582
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Hügelregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 31176.2528
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Bergregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Landw. Einkommen",
+    "value": 46237.1301
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Bergregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 29538.0638
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Talregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Landw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Talregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Hügelregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Landw. Einkommen",
+    "value": 56775.9727
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Hügelregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 27454.9556
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Bergregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Landw. Einkommen",
+    "value": 43620.0658
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Bergregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 29459.1629
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Talregion",
+    "type": "Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 110370.59
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Talregion",
+    "type": "Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 33580.8137
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Hügelregion",
+    "type": "Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 80613.165
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Hügelregion",
+    "type": "Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 31667.7087
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Bergregion",
+    "type": "Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 92566.4249
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Bergregion",
+    "type": "Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 31343.4792
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Talregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": 71083.6899
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Talregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 24770.4383
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Hügelregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": 68114.7143
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Hügelregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 21413.2351
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Talregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 76247.1225
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Talregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 52381.8178
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Hügelregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 60250.9652
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Hügelregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 43446.8498
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Talregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 96753.7477
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Talregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 30352.9533
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Hügelregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 75549.2725
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Hügelregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 29551.7349
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Bergregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 65876.6905
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Bergregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 28285.733
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Talregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Landw. Einkommen",
+    "value": 77886.0706
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Talregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 33219.6943
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Hügelregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Landw. Einkommen",
+    "value": 54751.2253
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Hügelregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 38763.6263
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Bergregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Landw. Einkommen",
+    "value": 45973.2123
+  },
+  {
+    "year": "Jahr 2018",
+    "region": "Bergregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 34052.7654
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Talregion",
+    "type": "Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": 72520.1059
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Talregion",
+    "type": "Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 45517.4545
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Hügelregion",
+    "type": "Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Hügelregion",
+    "type": "Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Talregion",
+    "type": "Spezialkulturen",
+    "inc1": "Landw. Einkommen",
+    "value": 88443.6509
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Talregion",
+    "type": "Spezialkulturen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 34469.3056
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Hügelregion",
+    "type": "Spezialkulturen",
+    "inc1": "Landw. Einkommen",
+    "value": 43068.8113
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Hügelregion",
+    "type": "Spezialkulturen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 48061.6975
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Bergregion",
+    "type": "Spezialkulturen",
+    "inc1": "Landw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Bergregion",
+    "type": "Spezialkulturen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Talregion",
+    "type": "Milchkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 68003.9597
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Talregion",
+    "type": "Milchkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 23294.7104
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Hügelregion",
+    "type": "Milchkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 53776.3069
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Hügelregion",
+    "type": "Milchkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 29803.5889
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Bergregion",
+    "type": "Milchkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 55256.4549
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Bergregion",
+    "type": "Milchkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 27224.3891
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Talregion",
+    "type": "Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Talregion",
+    "type": "Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Hügelregion",
+    "type": "Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 40997.4319
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Hügelregion",
+    "type": "Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 51668.0969
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Bergregion",
+    "type": "Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 59002.1758
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Bergregion",
+    "type": "Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 34496.7699
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Talregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Landw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Talregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Hügelregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Landw. Einkommen",
+    "value": 50252.5039
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Hügelregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 34972.7341
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Bergregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Landw. Einkommen",
+    "value": 46106.4437
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Bergregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 30091.3023
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Talregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Landw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Talregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Hügelregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Landw. Einkommen",
+    "value": 44689.5877
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Hügelregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 49949.42
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Bergregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Landw. Einkommen",
+    "value": 37131.8561
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Bergregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 31553.7682
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Talregion",
+    "type": "Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 105645.8132
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Talregion",
+    "type": "Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 32865.4791
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Hügelregion",
+    "type": "Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 77490.9881
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Hügelregion",
+    "type": "Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 29450.4726
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Bergregion",
+    "type": "Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 66065.7413
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Bergregion",
+    "type": "Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 35031.6547
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Talregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": 67786.3742
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Talregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 25849.8221
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Hügelregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": 59475.3157
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Hügelregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 21231.2952
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Talregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 63244.0855
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Talregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 45190.3984
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Hügelregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 58345.841
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Hügelregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 39618.1567
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Talregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 90392.7444
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Talregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 30764.3063
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Hügelregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 72380.7586
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Hügelregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 28314.8256
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Bergregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 62897.8741
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Bergregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 19646.183
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Talregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Landw. Einkommen",
+    "value": 77068.9613
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Talregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 30210.3169
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Hügelregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Landw. Einkommen",
+    "value": 53948.0922
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Hügelregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 36134.2083
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Bergregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Landw. Einkommen",
+    "value": 40857.8985
+  },
+  {
+    "year": "Jahr 2017",
+    "region": "Bergregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 43136.4621
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Talregion",
+    "type": "Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": 69793.4868
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Talregion",
+    "type": "Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 40542.9079
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Hügelregion",
+    "type": "Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Hügelregion",
+    "type": "Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Talregion",
+    "type": "Spezialkulturen",
+    "inc1": "Landw. Einkommen",
+    "value": 98302.5055
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Talregion",
+    "type": "Spezialkulturen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 30967.9714
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Hügelregion",
+    "type": "Spezialkulturen",
+    "inc1": "Landw. Einkommen",
+    "value": 43159.0453
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Hügelregion",
+    "type": "Spezialkulturen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 50563.0974
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Bergregion",
+    "type": "Spezialkulturen",
+    "inc1": "Landw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Bergregion",
+    "type": "Spezialkulturen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Talregion",
+    "type": "Milchkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 70347.923
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Talregion",
+    "type": "Milchkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 26552.8575
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Hügelregion",
+    "type": "Milchkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 50990.1479
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Hügelregion",
+    "type": "Milchkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 30332.597
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Bergregion",
+    "type": "Milchkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 50153.7252
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Bergregion",
+    "type": "Milchkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 26019.1396
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Talregion",
+    "type": "Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 53282.5534
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Talregion",
+    "type": "Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 31810.7703
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Hügelregion",
+    "type": "Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 39342.9207
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Hügelregion",
+    "type": "Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 53490.8706
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Bergregion",
+    "type": "Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 50215.7966
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Bergregion",
+    "type": "Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 34856.6136
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Talregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Landw. Einkommen",
+    "value": 54255.2812
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Talregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 39552.5772
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Hügelregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Landw. Einkommen",
+    "value": 47778.5539
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Hügelregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 33942.8306
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Bergregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Landw. Einkommen",
+    "value": 45579.1244
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Bergregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 27728.4353
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Talregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Landw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Talregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Hügelregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Landw. Einkommen",
+    "value": 38836.2793
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Hügelregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 40146.6969
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Bergregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Landw. Einkommen",
+    "value": 44699.717
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Bergregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 20675.4999
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Talregion",
+    "type": "Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 103368.7563
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Talregion",
+    "type": "Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 23172.8918
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Hügelregion",
+    "type": "Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 78921.6798
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Hügelregion",
+    "type": "Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 31856.3766
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Bergregion",
+    "type": "Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 55891.1543
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Bergregion",
+    "type": "Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 34891.2847
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Talregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": 62932.5237
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Talregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 20316.7936
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Hügelregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": 54538.0911
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Hügelregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 28318.9101
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Talregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 58060.5268
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Talregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 47477.8663
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Hügelregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 49928.8858
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Hügelregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 39206.8164
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Talregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 87332.8704
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Talregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 26875.2075
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Hügelregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 58957.4764
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Hügelregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 26881.6351
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Bergregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 65158.7752
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Bergregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 22196.6524
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Talregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Landw. Einkommen",
+    "value": 67691.7028
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Talregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 36402.0511
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Hügelregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Landw. Einkommen",
+    "value": 48112.5892
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Hügelregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 36036.4808
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Bergregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Landw. Einkommen",
+    "value": 45743.538
+  },
+  {
+    "year": "Jahr 2016",
+    "region": "Bergregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 42618.2717
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Talregion",
+    "type": "Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": 66388.2867
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Talregion",
+    "type": "Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 36871.9261
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Hügelregion",
+    "type": "Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Hügelregion",
+    "type": "Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Talregion",
+    "type": "Spezialkulturen",
+    "inc1": "Landw. Einkommen",
+    "value": 80874.41
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Talregion",
+    "type": "Spezialkulturen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 27914.9688
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Hügelregion",
+    "type": "Spezialkulturen",
+    "inc1": "Landw. Einkommen",
+    "value": 53048.9367
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Hügelregion",
+    "type": "Spezialkulturen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 42909.343
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Bergregion",
+    "type": "Spezialkulturen",
+    "inc1": "Landw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Bergregion",
+    "type": "Spezialkulturen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Talregion",
+    "type": "Milchkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 61099.1771
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Talregion",
+    "type": "Milchkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 26325.7879
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Hügelregion",
+    "type": "Milchkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 51136.1633
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Hügelregion",
+    "type": "Milchkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 31743.2723
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Bergregion",
+    "type": "Milchkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 47018.1142
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Bergregion",
+    "type": "Milchkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 26483.8027
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Talregion",
+    "type": "Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 56934.5204
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Talregion",
+    "type": "Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 30940.2481
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Hügelregion",
+    "type": "Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 42817.6341
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Hügelregion",
+    "type": "Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 42836.6225
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Bergregion",
+    "type": "Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 49949.0946
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Bergregion",
+    "type": "Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 28112.7348
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Talregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Landw. Einkommen",
+    "value": 52466.7956
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Talregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 43228.5609
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Hügelregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Landw. Einkommen",
+    "value": 49982.9704
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Hügelregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 31097.2852
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Bergregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Landw. Einkommen",
+    "value": 46619.099
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Bergregion",
+    "type": "Rindvieh gemischt",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 25335.1941
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Talregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Landw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Talregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Hügelregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Landw. Einkommen",
+    "value": 34014.0911
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Hügelregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 35740.5809
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Bergregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Landw. Einkommen",
+    "value": 44106.7891
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Bergregion",
+    "type": "Pferde/Schafe/Ziegen",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 24480.6371
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Talregion",
+    "type": "Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 90441.5412
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Talregion",
+    "type": "Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 19198.1466
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Hügelregion",
+    "type": "Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 70307.5186
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Hügelregion",
+    "type": "Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 34930.6817
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Bergregion",
+    "type": "Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 77097.8707
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Bergregion",
+    "type": "Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 23248.8716
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Talregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": 65929.7252
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Talregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 25532.0217
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Hügelregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Landw. Einkommen",
+    "value": 63544.0314
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Hügelregion",
+    "type": "Kombiniert Milchkühe/Ackerbau",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 18316.0907
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Talregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": 60620.2715
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Talregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 42390.4602
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Hügelregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Landw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Hügelregion",
+    "type": "Kombiniert Mutterkühe",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": null
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Talregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 83401.0853
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Talregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 27627.4259
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Hügelregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 54131.2519
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Hügelregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 33200.5052
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Bergregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Landw. Einkommen",
+    "value": 60299.4682
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Bergregion",
+    "type": "Kombiniert Veredlung",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 20412.355
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Talregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Landw. Einkommen",
+    "value": 65844.6219
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Talregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 34859.3286
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Hügelregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Landw. Einkommen",
+    "value": 51763.7854
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Hügelregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 29503.9122
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Bergregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Landw. Einkommen",
+    "value": 38081.3
+  },
+  {
+    "year": "Jahr 2015",
+    "region": "Bergregion",
+    "type": "Kombiniert Andere",
+    "inc1": "Ausserlandw. Einkommen",
+    "value": 37671.7106
+  }
+ ]

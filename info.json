@@ -1,0 +1,10 @@
+{
+"title": "Visualisierung landwirtschaftlicher Buchhaltungsdaten",
+"description": "Diese App visualisiert Einkommensdaten landwirtschaftlicher Haushalte mittels Zoomable Treemap. Die Daten sind nach Jahr, Betriebsregion, Betriebstyp und Einkommensart gegliedert.",
+"authors": [
+    {"name": "Simon Mägli", "email": "simon.maegli@students.unibe.ch"}
+],
+"date": "2022-06-01",
+"category": "Umwelt",
+"software_license": "GNU General Public License v3"
+}
