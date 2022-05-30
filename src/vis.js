@@ -13,8 +13,10 @@ var defaults = {
   format: ",.4r",
   title: "",
   width: 960,
-  height: 500
+  height: 600
 };
+
+
 
 function main(o, data) {
   var root,

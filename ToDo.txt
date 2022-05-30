@@ -1,5 +1,0 @@
-- Datenfilter: Jahr
-- verschiedene Themen anbieten (neben Kulturflächen)
-- Texte verfassen (Beschreibung, Methoden, Auswertung usw.)
-- (Responsive Visualisierung)
-
